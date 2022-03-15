@@ -5,3 +5,6 @@ cd ipfs-update
 sudo ./install.sh
 ipfs-update versions
 ipfs-update install latest
+mkdir /mnt/<name_of_your_volume>/.ipfs
+export IPFS_PATH=/mnt/<name_of_your_volume>/.ipfs
+ipfs init --profile server
