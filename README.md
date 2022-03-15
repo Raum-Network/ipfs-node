@@ -1,4 +1,4 @@
-# ipfs-node
+# ipfs-node repo for node setup
 
 For Test Setup
 
