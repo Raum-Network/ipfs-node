@@ -6,6 +6,6 @@ After=syslog.target network.target remote-fs.target nss-lookup.target
 Type=simple
 ExecStart=/usr/local/bin/ipfs daemon --enable-namesys-pubsub
 User=<username>
-
+Environment="IPFS_PATH=/mnt/<name_of_your_volume>/.ipfs"
 [Install]
 WantedBy=multi-user.target
